@@ -1,0 +1,33 @@
+body {
+    background-color: #333;
+    color: #fff;
+  }
+.navbar{
+    border-bottom: #81b71a 3px solid;
+   
+
+}
+#home-section {
+
+    background: url("https://i.imgur.com/ZrurkKA.jpg") no-repeat;
+    min-height: 100wh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-inner {
+    padding: 150px;
+
+}
+.dark-overlay{
+    background-color: rgba(0,0,0,.3);
+   /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;*/
+}
+@media (max-width: 992px){
+    .home-inner{
+        padding-top: 100px;
+    }
+}
